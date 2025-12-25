@@ -1,3 +1,6 @@
+"""Executing this function initiates an application of emotion detections. Executed with
+Flask on localhost:5000
+"""
 from flask import Flask, render_template, request
 from EmotionDetection.emotion_detection import emotion_detector
 
